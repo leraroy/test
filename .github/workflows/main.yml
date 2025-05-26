@@ -4,8 +4,12 @@ name: CI
 on: push
     
 jobs:
+   
   automated-test-api:
     runs-on: ubuntu-latest
+    permissions:
+       id-token: write
+       pages: write
     steps:
     - uses: actions/checkout@v4
       # Install NPM dependencies, cache them correctly
