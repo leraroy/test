@@ -12,7 +12,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - uses: actions/checkout@v4
-    - uses: cypress-io/github-action@v6
+    
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
     - name: Install Cypress
@@ -22,7 +22,7 @@ jobs:
       run: npm install -g allure-commandline --save-dev
       
     - name: Cypress run
-      run: npm run cy:run
+      uses: cypress-io/github-action@v6 
 
     - name: Reports Generate
       run: npm run allure-report
@@ -50,6 +50,7 @@ jobs:
           gh_pages: gh-pages
           allure_report: allure-report
           allure_history: allure-history
+    
     - name: Deploy report to Github Pages
       if: always()
       uses: peaceiris/actions-gh-pages@v2
