@@ -59,7 +59,7 @@ workflows:
   run_tests_all_tracks:
     jobs:
       - run_tests:
-          name: CPMirror
+          name: CPMirror 
           specPath: "cypress/e2e/**/*.cy.js"
           trackName: "CPMirror"
           filters:
