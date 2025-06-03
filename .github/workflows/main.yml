@@ -22,7 +22,7 @@ jobs:
       run: npm install -g allure-commandline --save-dev
       
     - name: Cypress run
-      uses: cypress-io/github-action@v6 
+      uses: cypress-io/github-action@v6
 
     - name: Reports Generate
       run: npm run allure-report
