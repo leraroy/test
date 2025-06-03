@@ -3,7 +3,6 @@ version: 2.1
 orbs:
   allure: ayte/allure@0.1.3
   browser-tools: circleci/browser-tools@1.4.0
-  webex-orb: cxepi/webex-orb@0.4.2
 
 jobs:
   run_tests:
