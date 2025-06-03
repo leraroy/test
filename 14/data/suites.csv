@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","257","can delete all completed tasks","example to-do app","Tue Jun 03 14:37:37 GMT 2025","passed","Tue Jun 03 14:37:38 GMT 2025","","with a checked task","",""
-"","444","displays two todo items by default","example to-do app","Tue Jun 03 14:37:36 GMT 2025","passed","Tue Jun 03 14:37:36 GMT 2025","","","",""
-"","260","can filter for completed tasks","example to-do app","Tue Jun 03 14:37:37 GMT 2025","passed","Tue Jun 03 14:37:37 GMT 2025","","with a checked task","",""
-"","408","can add new todo items","example to-do app","Tue Jun 03 14:37:36 GMT 2025","passed","Tue Jun 03 14:37:37 GMT 2025","","","",""
-"","261","can filter for uncompleted tasks","example to-do app","Tue Jun 03 14:37:37 GMT 2025","passed","Tue Jun 03 14:37:37 GMT 2025","","with a checked task","",""
-"","197","can check off an item as completed","example to-do app","Tue Jun 03 14:37:37 GMT 2025","passed","Tue Jun 03 14:37:37 GMT 2025","","","",""
