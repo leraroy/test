@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-  circleci-cli: circleci/circleci-cli@0.1.9
   allure: ayte/allure@0.1.3
+  circleci-cli: circleci/circleci-cli@0.1.9
 jobs:
   build:
     docker:
