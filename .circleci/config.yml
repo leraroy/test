@@ -23,6 +23,6 @@ jobs:
           name: Generate Allure Report
           when: always
           command: npm run report:generate
-            - store_artifacts:
+      - store_artifacts:
                 name: Store Allure Report
                 path: results/allure-report
