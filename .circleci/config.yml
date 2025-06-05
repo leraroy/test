@@ -1,6 +1,5 @@
 version: 2.1
 orbs:
-  allure: ayte/allure@0.1.3
   circleci-cli: circleci/circleci-cli@0.1.9
 jobs:
   build:
@@ -18,11 +17,3 @@ jobs:
 
       - run: npm ci
       - run: npm run test
-
-      - run:
-          name: Generate Allure Report
-          when: always
-          command: npm run report:generate
-      - store_artifacts:
-                name: Store Allure Report
-                path: results/allure-report
